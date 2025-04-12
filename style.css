@@ -1,0 +1,76 @@
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.container {
+  width: 350px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 50px;
+}
+
+/* Typography */
+
+h1 {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+p {
+  font-size: 0.8rem;
+  margin: 3px 0;
+}
+
+.location {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Sections */
+
+header {
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.flex-box-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.flex-box-section {
+  display: flex;
+  padding: 7px 10px;
+}
+
+.comment {
+  padding: 10px 10px;
+}
+
+/* Images */
+
+.logo-img {
+  width: 120px;
+}
+
+.avatar-img {
+  width: 40px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.post-img {
+  max-width: 100%;
+}
+
+.icon-img {
+  width: 27px;
+  margin-right: 5px;
+}
