@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Source Sans 3", sans-serif;
   background-color: #f5f5f5;
@@ -5,10 +9,10 @@ body {
 }
 
 .container {
-  width: 350px;
-  margin: 0 auto;
+  max-width: 350px;
+  width: 90%;
+  margin: 50px auto 0 auto;
   background-color: white;
-  margin-top: 50px;
 }
 
 /* Typography */
@@ -73,4 +77,9 @@ header {
 .icon-img {
   width: 27px;
   margin-right: 5px;
+}
+
+.icon-img:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
